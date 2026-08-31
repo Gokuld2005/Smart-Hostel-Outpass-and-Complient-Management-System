@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body {
+  margin: 0; padding: 0;
+  background: url('https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=1920') no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  padding: 24px;
+  margin: 16px auto;
+}
+
+.tab-btn {
+  padding: 10px 28px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn-active {
+  background: #7C3AED;
+  color: #ffffff;
+  border: 2px solid #7C3AED;
+  box-shadow: 0 4px 15px rgba(124,58,237,0.4);
+  transform: translateY(-1px);
+}
+
+.tab-btn-inactive {
+  background: rgba(255,255,255,0.15);
+  color: #ffffff;
+  border: 2px solid rgba(255,255,255,0.4);
+}
+
+.tab-btn-inactive:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-1px);
+}
+
+.no-outpasses-message {
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  font-size: 16px;
+  padding: 40px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.logout-btn { position: absolute; top: 10px; right: 10px; }

@@ -1,0 +1,199 @@
+[
+  {
+    "_id": {
+      "$oid": "64583a56efe7f086ad464f8b"
+    },
+    "id": "W1",
+    "name": "Travis Scott",
+    "gender": "Male",
+    "email": "scott@travis.com",
+    "password": "$2a$10$PInGVYH3ZavZgMhLq53nnuhgm8ICg1g2BTzDyPtyOaUVvoWLVDSfK",
+    "number": "9874747210",
+    "outpassList": [],
+    "createdAt": {
+      "$date": "2023-05-07T23:55:02.345Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-07T23:55:02.345Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64583a5fefe7f086ad464f8e"
+    },
+    "id": "W2",
+    "name": "Selena Gomez",
+    "gender": "Female",
+    "email": "selena@gomez.com",
+    "password": "$2a$10$jJsNYzmTMiEy9.vl7Pk5eOkIVlrGLG9N4dLKDIdmAg9nglwqSfuny",
+    "number": "9874747210",
+    "outpassList": [],
+    "createdAt": {
+      "$date": "2023-05-07T23:55:11.475Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-07T23:55:11.475Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64583a65efe7f086ad464f91"
+    },
+    "id": "F1",
+    "name": "Sachin Sujay",
+    "gender": "Male",
+    "email": "sachinsujay@ssn.edu.in",
+    "password": "$2a$10$IgYHIm4eYG/gjbvxwY7aWu9c9UUPfbdesp/dzTW/tbc5jJkHSyXey",
+    "number": "9874747210",
+    "outpassList": [],
+    "createdAt": {
+      "$date": "2023-05-07T23:55:17.677Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-07T23:55:17.677Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64583a6eefe7f086ad464f94"
+    },
+    "id": "F2",
+    "name": "Jyothi Roy",
+    "gender": "Female",
+    "email": "jyothiroy@gamil.com",
+    "password": "$2a$10$CEjdUMTkiuhhPBy6q/n.UePplZADTqABUh.yevpAZyOdOIZQUy/Da",
+    "number": "9874747210",
+    "outpassList": [],
+    "createdAt": {
+      "$date": "2023-05-07T23:55:26.064Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-07T23:55:26.064Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64583dacb2ef8413104f28c2"
+    },
+    "id": "S1",
+    "name": "GOKUL D",
+    "gender": "Male",
+    "email": "gokuld13012005@gmail.com",
+    "password": "12345@gokul",
+    "number": "9102837465",
+    "dept": "CSE",
+    "year": 2020,
+    "room": "A-89",
+    "job": "student",
+    "outpassList": [],
+    "classInchargeId": {
+      "$oid": "64569ea78a6d4bcf18d626d3"
+    },
+    "createdAt": {
+      "$date": "2023-05-08T00:09:16.441Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-08T00:09:16.441Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64583dd6b2ef8413104f28c5"
+    },
+    "id": "S2",
+    "name": "Sabarivasan V",
+    "gender": "Male",
+    "email": "sabarivasanv@gmail.com",
+    "password": "$2a$10$u2/K.4Oe3Zl07Ci4ofbj4OsM6nRzVaqZ2tO/f84Lpad3my75nVoFS",
+    "number": "9102837465",
+    "dept": "ECE",
+    "year": 2020,
+    "room": "G-10",
+    "job": "student",
+    "outpassList": [
+      {
+        "$oid": "64583e08b2ef8413104f28cb"
+      },
+      {
+        "$oid": "64583e21b2ef8413104f28d5"
+      },
+      {
+        "$oid": "645880f7c0c353517e49ce9e"
+      },
+      {
+        "$oid": "6458c0923904bbdf84691433"
+      },
+      {
+        "$oid": "6458c0f4ac62dc21c5c19eb4"
+      },
+      {
+        "$oid": "6458c3555942224affeebb4a"
+      }
+    ],
+    "classInchargeId": {
+      "$oid": "64583a6eefe7f086ad464f94"
+    },
+    "createdAt": {
+      "$date": "2023-05-08T00:09:58.637Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-08T09:39:33.089Z"
+    },
+    "__v": 6
+  },
+  {
+    "_id": {
+      "$oid": "64583dddb2ef8413104f28c8"
+    },
+    "id": "S3",
+    "name": "Shalini N",
+    "gender": "Female",
+    "email": "shalinin@yahoo.co.in",
+    "password": "$2a$10$MmhiI7phxdcgXaS/.BDK1eqcJmOrwOsBtceQ07BHsngREpv3Apk3a",
+    "number": "9102837465",
+    "dept": "IT",
+    "year": 2020,
+    "room": "F-19",
+    "job": "student",
+    "outpassList": [
+      {
+        "$oid": "64583e18b2ef8413104f28d0"
+      }
+    ],
+    "classInchargeId": {
+      "$oid": "64569e608a6d4bcf18d626d0"
+    },
+    "createdAt": {
+      "$date": "2023-05-08T00:10:05.044Z"
+    },
+    "updatedAt": {
+      "$date": "2023-05-08T00:11:04.249Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "65bd4ef60cbe0dad4631f374"
+    },
+    "id": "A2",
+    "name": "Ajith",
+    "gender": "Male",
+    "email": "ajith@gmail.com",
+    "password": "$2a$10$Y.f042lr0r4IrIMNN5gUuOgNHmfV7I/AG4pHESDMIbfdysb/RrKjC",
+    "number": "9102837465",
+    "job": "admin",
+    "outpassList": [],
+    "createdAt": {
+      "$date": "2024-02-02T20:22:14.051Z"
+    },
+    "updatedAt": {
+      "$date": "2024-02-02T20:22:14.051Z"
+    },
+    "__v": 0
+  }
+]

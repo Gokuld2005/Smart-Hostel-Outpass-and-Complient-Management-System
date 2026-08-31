@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body {
+  margin: 0; padding: 0;
+  background: url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920') no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  padding: 24px;
+  margin: 16px auto;
+}
+
+.logout-btn { position: absolute; top: 10px; right: 10px; }

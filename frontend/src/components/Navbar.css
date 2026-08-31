@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: black; /* Set the background color to black */
+    padding: 0 20px;
+    border-bottom: none !important;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .navbar-links {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+   /* Additional styles for better visual appearance */
+   .navbar-item,
+   .dropdown-item {
+     padding: 5px;
+     border-radius: 5px;
+   }
+   
+   .navbar-item:hover,
+   .navbar-item:focus {
+     background-color: white; /* Invert the background color to white */
+     color: black; /* Invert the text color to black */
+     outline: none;
+   }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color:black;
+    padding: 10px;
+  }
+  
+  .dropdown-item {
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: black !important;
+    color: white !important;
+    outline: none;
+  }
+  

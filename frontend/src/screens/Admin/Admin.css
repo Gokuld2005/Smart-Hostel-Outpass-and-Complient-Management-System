@@ -1,0 +1,63 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=1920');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.admin-add-user-form {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 500px;
+  width: 80%;
+  border: 2px solid black;
+}
+
+.admin-add-user-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-add-user-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.admin-add-user-form input,
+.admin-add-user-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.admin-add-user-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0e3386;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-add-user-form button:hover {
+  background-color: #0c2c6b;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

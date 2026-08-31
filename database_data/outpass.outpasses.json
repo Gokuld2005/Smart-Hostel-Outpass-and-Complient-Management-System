@@ -1,0 +1,196 @@
+[{
+  "_id": {
+    "$oid": "64583e08b2ef8413104f28cb"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a65efe7f086ad464f91"
+  },
+  "from": {
+    "$date": "2023-05-05T00:00:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-10T00:00:00.000Z"
+  },
+  "reason": "Home",
+  "place": "Chennai",
+  "status": "APPROVED",
+  "qrCode": "some-qr-code-generated",
+  "createdAt": {
+    "$date": "2023-05-08T00:10:48.708Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T07:23:08.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64583e18b2ef8413104f28d0"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a65efe7f086ad464f91"
+  },
+  "from": {
+    "$date": "2023-05-05T00:00:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-10T00:00:00.000Z"
+  },
+  "reason": "Home",
+  "place": "Chennai",
+  "status": "REJECTED",
+  "qrCode": null,
+  "createdAt": {
+    "$date": "2023-05-08T00:11:04.240Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T08:44:16.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64583e21b2ef8413104f28d5"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a65efe7f086ad464f91"
+  },
+  "from": {
+    "$date": "2023-05-05T00:00:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-10T00:00:00.000Z"
+  },
+  "reason": "Home",
+  "place": "Chennai",
+  "status": "REQUESTED2",
+  "qrCode": null,
+  "createdAt": {
+    "$date": "2023-05-08T00:11:13.640Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T00:11:13.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645880f7c0c353517e49ce9e"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a65efe7f086ad464f91"
+  },
+  "from": {
+    "$date": "2023-05-09T04:56:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-10T04:56:00.000Z"
+  },
+  "reason": "fsefef",
+  "place": "ferfer",
+  "status": "REQUESTED1",
+  "qrCode": null,
+  "createdAt": {
+    "$date": "2023-05-08T04:56:23.751Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T04:56:23.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6458c0923904bbdf84691433"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a6eefe7f086ad464f94"
+  },
+  "from": {
+    "$date": "2023-05-08T09:27:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-10T09:27:00.000Z"
+  },
+  "reason": "native place ",
+  "place": "marriage",
+  "status": "REQUESTED1",
+  "qrCode": null,
+  "createdAt": {
+    "$date": "2023-05-08T09:27:46.497Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T09:27:46.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6458c0f4ac62dc21c5c19eb4"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a6eefe7f086ad464f94"
+  },
+  "from": {
+    "$date": "2023-05-09T09:29:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-10T09:29:00.000Z"
+  },
+  "reason": "hospital",
+  "place": "fever",
+  "status": "APPROVED",
+  "qrCode": "some-qr-code-generated",
+  "createdAt": {
+    "$date": "2023-05-08T09:29:24.511Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T09:39:49.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6458c3555942224affeebb4a"
+  },
+  "studentId": {
+    "$oid": "64583dd6b2ef8413104f28c5"
+  },
+  "classInchargeId": {
+    "$oid": "64583a6eefe7f086ad464f94"
+  },
+  "from": {
+    "$date": "2023-05-10T09:39:00.000Z"
+  },
+  "to": {
+    "$date": "2023-05-11T09:39:00.000Z"
+  },
+  "reason": "kelambakkam ",
+  "place": "shopping ",
+  "status": "REJECTED",
+  "qrCode": null,
+  "createdAt": {
+    "$date": "2023-05-08T09:39:33.061Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T09:39:51.941Z"
+  },
+  "__v": 0
+}]
